@@ -1,0 +1,78 @@
+/* Navigation Bar */
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.navbar a:hover {
+    color: blue;
+}
+
+/* Layout */
+#main-content {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+}
+.left-column, .right-column {
+    width: 50%;
+}
+
+/* Profile Section */
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.job-title {
+    color: gray;
+    font-style: italic;
+}
+
+/* Contact Section */
+#contact p, #contact a {
+    font-size: 14px;
+}
+
+/* Skills Section */
+#skills ul {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+}
+#skills li {
+    margin-bottom: 8px;
+}
+
+/* About Me */
+#about p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Message Form */
+.message-form input[type="text"],
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.message-form input[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.message-form input[type="submit"]:hover {
+    background-color: #dcdcdc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 20px;
+}

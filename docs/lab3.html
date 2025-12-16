@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crisologo Lab 5</title>
-    <link rel="stylesheet" href="style_final.css" />
-    <script src="script.js" defer></script>
+    <title>Lastname Lab 2</title>
+    <link rel="stylesheet" href="style_initial.css" />
   </head>
   <body>
     <header class="navbar">
@@ -13,19 +12,13 @@
         <a href="index.html">Home</a> | <a href="lab2.html">HTML</a> |
         <a href="lab3.html">CSS</a> | <a href="lab4.html">JavaScript</a>
       </h2>
-      <button id="themeBtn">Toggle Dark Mode</button>
     </header>
 
     <section id="main-content">
       <div class="left-column">
         <img src="img/profile.jpg" class="profile-img" alt="Profile Image" />
-
-        <p id="greeting" style="font-weight: bold; color: #555"></p>
-
         <h1>Crisologo, Terence Joefrey C.</h1>
-
-        <h3 class="job-title" id="jobTitle">NUFV College Student</h3>
-        <button id="editJobBtn">Edit Job Title</button>
+        <h3 class="job-title">NUFV College Student</h3>
 
         <section id="contact">
           <h2>Contact</h2>
@@ -37,13 +30,8 @@
         </section>
 
         <section id="skills">
-          <h2>
-            Skills
-            <button id="toggleSkillsBtn" style="font-size: 12px">
-              Hide Skills
-            </button>
-          </h2>
-          <ul id="skillsList">
+          <h2>Skills</h2>
+          <ul>
             <li>Android Programming</li>
             <li>Python Programming</li>
             <li>UX/UI Designer</li>
@@ -63,32 +51,10 @@
         <section id="contact-me" class="message-form">
           <h2>Message Me</h2>
           <form>
-            <input
-              type="text"
-              id="nameField"
-              placeholder="Your Name"
-            /><br /><br />
-            <input
-              type="text"
-              id="emailField"
-              placeholder="Your Email"
-            /><br /><br />
-
-            <textarea
-              id="msgBox"
-              placeholder="Your Message"
-              maxlength="200"
-            ></textarea>
-            <p style="font-size: 12px; margin-top: 5px">
-              Characters left: <span id="counter">200</span>
-            </p>
-            <br />
-
-            <input
-              type="submit"
-              value="Send Message"
-              onclick="return validateForm()"
-            />
+            <input type="text" placeholder="Your Name" /><br /><br />
+            <input type="text" placeholder="Your Email" /><br /><br />
+            <textarea placeholder="Your Message"></textarea><br /><br />
+            <input type="submit" value="Send Message" />
           </form>
         </section>
       </div>
@@ -96,7 +62,6 @@
 
     <footer>
       <p>© 2025 Crisologo</p>
-      <p id="dateDisplay"></p>
     </footer>
   </body>
 </html>

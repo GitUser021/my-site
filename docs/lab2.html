@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Profile</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <nav class="sticky top-0 flex flex-row gap-4 justify-center items-center p-4 bg-neutral-200">
+            <div class="font-bold">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="font-bold">
+                <a href="lab2.html">HTML</a>
+            </div>
+            <div class="font-bold">
+                <a href="lab3.html">CSS</a>
+            </div>
+            <div class="font-bold">
+                <a href="lab4.html">JavaScript</a>
+            </div>
+        </nav>
+        <section id="home" class="flex flex-row justify-center gap-4 items-center h-screen w-full">
+            <img class="size-30 shrink-0" src="img/profile.jpg" alt="Profile Picture"/>
+            <div class="flex flex-col">
+                <div>
+                    Hello! I am 
+                </div>
+                <div class="text-2xl">
+                    Terence Joefrey C. Crisologo
+                </div>
+            </div>
+            
+            
+        </section>
+        <section id="about" class="flex flex-col justify-center items-center h-screen w-full">
+            <h1 class="font-bold text-xl">
+                About
+            </h1>
+            <div class="flex flex-col gap-20">
+                <div>
+                    <h2 class="underline">Skills</h2>
+                    <ul class="list-disc">
+                        <li>UI/UX Desgin</li>
+                        <li>Frontend Coding</li>
+                        <li>Python & Java Programming</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="underline">Experience</h2>
+                    <ul class="list-disc">
+                        <li>Designing simple web user interfaces</li>
+                        <li>Designed mockup services for both desktop and mobile platforms</li>
+                        <li>Created several programs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="flex flex-col justify-center items-center h-screen w-full">
+            <h1 class="font-bold text-xl">
+                Contact
+            </h1>
+            <div class="flex flex-col gap-4">
+                <div>
+                    <div>
+                        Email Me
+                    </div>
+                    <div>
+                        cri-----j@gmail.com
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h2>Or Message Me Directly</h2>
+                        <form action="submit" method="post" class="flex flex-col justify-center items-center gap-2">
+                            <p>
+                                <input type="text" name="name" placeholder="Your Name" class="border-1 rounded-md">
+                            </p>
+                            <p>
+                                <input type="email" name="email" placeholder="Your Email" class="border-1 rounded-md">
+                            </p>
+                            <p>
+                                <input type="submit" value="Send" class="rounded-sm p-2 bg-blue-300">
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="flex flex-row gap-4 justify-center items-center p-2 ">
+            <div class="text-sm italic">WEBPROG - Web Programming 2025</div>
+            
+        </footer>
+    </body>
+</html>
